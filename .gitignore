@@ -1,0 +1,37 @@
+lib-cov
+*.seed
+
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+.toc
+
+# Java class files
+*.class
+
+# Android Studio project files
+*.iml
+*.idea/
+*.DS_Store
+
+
+.gradle
+/local.properties
+/.idea/workspace.xml
+.DS_Store
+
+build/
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# built application files
+*.apk
+*.ap_
+*.aux
