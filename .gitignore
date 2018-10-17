@@ -7,7 +7,7 @@ lib-cov
 *.out
 *.pid
 *.gz
-.toc
+*.toc
 
 # Java class files
 *.class
