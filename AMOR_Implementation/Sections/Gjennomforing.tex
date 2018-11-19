@@ -1,18 +1,27 @@
-\section*{Gjennomføring} \label{Sec: Gjennom}
+\section{Gjennomføring} \label{Sec: Gjennom}
+
+
+
+\subsection{Generelt}
 
     \begin{itemize}
-
-        \item Før året starter burde det ses på og vurderes:
-
-            \begin{itemize}
-                \item Bruk av eksterne foredragsholdere som et motivasjonstiltak, samt et tiltak for bidrag til et kunnskapsnettverk for elevene.
-                \item Ekskursjoner til relevante robotikkmiljøer og eller fabrikker som bruker roboter.
-                \item Læringsressurser og strategi for faget, i henhold til vurderinger og feedback fra elevene, samt erfaringer gjordt av fjordårets faglærere.
-                \item Bruk av Student Response Systems (SRS) som Mentimeter og Kahoot. En eventuell bruk burde forberedes godt og samspille med fagets læreplanmål.
-            \end{itemize}
-
-        \item I løpet av året bør elever oppfordres til å dele læringsressurser med resten av kullet og faglærere. Dette anbefales gjort på fagets GitHub side, i mappen ressurser.
+        \item I løpet av året brukes versjonskontrollsystemet GitHub, og elever bør oppfordres til å dele læringsressurser med resten av kullet og faglærere. Dette anbefales gjort på kursets GitRepo, i mappen \href{https://github.com/KvalheimRacing/KubenRobotics/tree/master/Resources}{ressurser}.
         \item Slack benyttes som kommunikasjonsplattform i faget. Spesielt brukes Bitraf sitt workspace. Dette for å knytte elevene til makermiljøet, og gi dem kjenskap til jobbrelevante kommunikasjonsplattformer.
+        \item Matlab brukes som verktøy for å lage matematiske representasjoner av robotene. Her eksporteres så koden senere til C++ for bruk på roboten som ROS noder.
+        \item Ved midtveis og sluttvurderingger møtes faglærere (på robotikk) for å diskutere tilbakemeldinger, vurderinger og erfaringer. Det er her da viktig at det muntlige befestes i noe skriftlig.
+    \end{itemize}
+
+    \subsubsection*{Detaljert forslag til gjennomføring av interaktiv klasseromstime}
+
+        Det anbefales bruk av konseptet omvendt undervisning. Her har elevene har sett en video relatert til dagens tema på forhånd. Timen starter med inspirerende/nyttige nyheter om roboter (eks fra reddit etc).
+        Innleder deretter plan for dagen/timen. Veksler så på aktiv/passiv læring, individuelt og i grupper (velges av random number generatorer). Undervisningen bør bestå av en blanding av tavle, video og egenarbeids-undervisning. Man burde trekke inn mest mulig praktisk på roboten mens man underviser matematikken. Eksempelvis når man skal dekke hastighetskinematikk kan man kjøre roboten og dermed forklare at man trenger informasjon om hvor fort f.eks tuppen av roboten beveger seg. Altså kjøre roboten i en kontinuerlig bevegelse med konstant hastighet.\\
+        Dette er kun ett forslag ment å illustrere hvordan man kan kombinere praksis og teori med effektive læringsmetoder.
+
+
+
+\subsection{Refleksjon og Etikk}
+
+    \begin{itemize}
         \item En helhetlig introduksjon til robotikkfaget generelt og AMOR faget sett i denne sammenhengen, gis ved kursstart, dersom det ikke er gitt ila VG1 eller VG2
         \item Ved årsstart skal elevene reflektere på hvor de selv og robotikken er på vei hen. Dette skriftelig og indiviuelt. Spørsmålene gis på engelsk som en mulighet for tverrfaglighet, valgfritt svarspråk. Elevene skal få et ark hvor de svarer på følgende:
 
@@ -53,5 +62,61 @@
         Etter diskusjon i klasseromstimen er et individuelt prosjekt å beskrive en nyhetsak innen fagområdet. Dette fremmer en undersøkende og kartleggende aproach, og prosjektet kan være en ny teknologisk løsning, et gjennombrudd eller et annen dagsrelevant tema innenfor robotikk. Temaet er fritt og ment som et motivasjonstiltak og et tiltak for å hjelpe elevene til å være oppdatert på området. Prosjektet fremføres for resten av klassen.
 
         Denne diskusjonen, samt fremføring av et relevant nyhetssak fungerer som en av flere karaktergivende underveisvurderinger i faget.
-
     \end{itemize}
+
+
+
+\subsection{Matematikk}
+
+
+    \begin{itemize}
+        \item For motivasjon om de matematiske temaene, innled kort (1-2 setninger) om de historiske personene som står bak temaene (om mulig).
+    \end{itemize}
+
+
+    \subsubsection{Lineær Algebra}
+        noe
+
+
+    \subsubsection{Tallsystemer}
+        noe
+
+
+    \subsubsection{Rotasjoner og Homogene transformasjoner}
+        \begin{itemize}
+            \item Når man begynner å snakke om rotasjoner, ta frem en robot og roter basen (førsteaksen) fra en posisjon til en annen. Start så med å tegne opp aksekorset før og etter rotasjon. Utled derreter rotasjonsmatrisen i planet, deretter rotasjonsmatrisen i rommet. Mao så bygges forståelse for rotasjon i 2 dimmensjoner, som man så trekker til tre dimmensjoner. Detetter ta inn homogenous transformasjoner og dekke foroverkinematikk.
+        \end{itemize}
+
+
+    \subsubsection{Foroverkinematikk}
+        noe
+
+
+    \subsubsection{Inverskinematikk}
+        noe
+
+
+    \subsubsection{Hastighetskinematikk}
+        noe
+
+
+\subsection{Dynamikk}
+        noe
+
+
+
+\subsection{ROS}
+        Masse ROS greier
+
+\subsection{Prosjektarbeid}
+
+    De 5 prosjektene som kan jobbes med siste halvår er som følger
+    \begin{itemize}
+        \item Motorman - Noe her
+        \item Ur3 og ROS - mer Her
+        \item Ukjent - noe1
+        \item Ukjent - noe2
+        \item Ukjent - noe3
+    \end{itemize}
+
+    Disse robotene og prosjektene vil kunne arbeides videre på fra år til år, slik at elevene må starte med å sette seg inn i en eksisterende kodebase samt tidligere prosjektresultater, før de kan bygge videre med sine egne oppgaver. Dette muliggjør \emph{kumulativ kunnskap}, og som er et viktig konsept for å skape et sterkt fagmiljø på robotikk på Kuben.
