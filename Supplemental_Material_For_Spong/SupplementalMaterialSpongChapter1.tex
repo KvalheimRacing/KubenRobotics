@@ -1,0 +1,29 @@
+% Also try the document class 'amsart'.
+\documentclass[a4paper, oneside, onecolumn, 11pt, notitlepage, reqno]{article}
+
+% Load preamble
+\usepackage{kvalheimracing}
+
+% Hyperref setup
+\hypersetup{pdfauthor={Eirik Kvalheim}}
+\hypersetup{pdftitle ={Supplemental Material}}
+
+\title{Supplemental Material For Spong - Robot Dynamics and Control}
+
+\author{Eirik Kvalheim}
+
+\date{March 15, 2019}
+%\author{Author}
+%\date{\today}
+
+\begin{document}
+
+	\maketitle
+
+	\input{Sections/Problem1ForwardKinematics}
+	\newpage
+	\input{Sections/Problem2InverseKinematics}
+	\newpage
+	\input{Sections/Problem3VelocityKinematics}
+
+\end{document}
