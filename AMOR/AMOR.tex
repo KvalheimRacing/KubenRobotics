@@ -3,12 +3,23 @@
 
 % Load preamble
 \usepackage{kvalheimracing}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={130mm,257mm},
+ left=40mm,
+ top=20mm,
+ }
 
 % Hyperref setup
 \hypersetup{pdfauthor={Eirik Kvalheim & James Fox}}
 \hypersetup{pdftitle ={Laereplan}}
 
+%% TODO: Trekke tittelen opp
+
+
 \title{Læreplan i Anvendt Matematikk og Robotikk - Programfag i Utdanningsprogram for Yrkesfag med Studiekompetanse}
+%\setlength{\droptitle}{-12em}
 
 \author{Eirik Kvalheim og James Fox}
 
@@ -22,9 +33,11 @@
 
 	\input{Sections/Formaal}
 	\input{Sections/Struktur}
+	\newpage
 	\input{Sections/Hovedomraader}
 	\input{Sections/Timetall}
 	\input{Sections/GrunnleggendeFerdigheter}
+	\newpage
 	\input{Sections/Kompetansemaal}
 	\input{Sections/Vurdering}
 
